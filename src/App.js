@@ -8,7 +8,7 @@ import './css/App.css';
 function App() {
   const [bill, setBill] = useState(0);
     const [people, setPeople] = useState(0);
-    const [service, setService] = useState(0.3);
+    const [service, setService]= useState(0.3);
     const [tipAmount, setTipAmount] = useState(0);
     const tipCalculation= ()=> (
    setTipAmount((bill*service)/(people))
