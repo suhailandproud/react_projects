@@ -14,8 +14,6 @@ function App() {
    setTipAmount((bill*service)/(people))
     );
      
-    
-
     return (
         <div className= 'wrapper overflow-auto bg-yellow'>
             <div  className='overflow-auto bg-green'><h1 className='h1'>Tip Calculator</h1></div>
